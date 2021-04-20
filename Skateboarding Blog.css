@@ -1,0 +1,32 @@
+html {
+	display: grid;
+}
+
+header {
+	background-color: #D5D5D5;
+}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	background-color: #EEEEEE;
+}
+
+nav {
+	background-color: #9CFFFF;
+}
+
+.Mpc {
+	background-color: #3EFFAA;
+}
+
+.Introduction {
+	background-color: #DF7EFF;
+}
+
+footer {
+	background-color: #FFA5DC;
+}
+
