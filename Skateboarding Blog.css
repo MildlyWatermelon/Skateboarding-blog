@@ -1,13 +1,23 @@
-html {
-	display: grid;
+main {
+	background-color: white;
+	width: 70%;
+	margin: auto;
+	border-width: 1px;
+	border-color: grey;
+	border-style: solid;
+	border-radius: 2px;
+	display: grid; 
 }
 
 header {
-	background-color: #D5D5D5;
+	padding-top: 5px;
+	padding-bottom: 2px;
 }
 
 h1 {
 	text-align: center;
+	font-family: Antonio;
+	font-size: 40px;
 }
 
 body {
@@ -16,14 +26,21 @@ body {
 
 nav {
 	background-color: #9CFFFF;
+	display: grid;
 }
 
-.Mpc {
-	background-color: #3EFFAA;
-}
-
-.Introduction {
+.introduction {
 	background-color: #DF7EFF;
+}
+
+.articles {
+	background-color: #3EFFAA;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+Page {
+	background-color: #F8F8F8;
 }
 
 footer {
