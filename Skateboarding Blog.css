@@ -10,8 +10,10 @@ main {
 }
 
 header {
-	padding-top: 5px;
-	padding-bottom: 2px;
+	background-image: url("https://www.popsci.com/app/uploads/2019/09/10/PJIC4GUKOWYLWRBV7TYIXC2R7Q.jpg");
+	width: 100%;
+	height: auto;
+	opacity: 50%;
 }
 
 h1 {
