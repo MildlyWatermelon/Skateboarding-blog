@@ -1,25 +1,31 @@
 main {
 	background-color: white;
-	width: 70%;
+	width: 60%;
+	height: 1500px;
 	margin: auto;
 	border-width: 1px;
 	border-color: grey;
 	border-style: solid;
 	border-radius: 2px;
 	display: grid; 
+	grid-template-rows: 10% 2% 78% 10%;
+	grid-template-columns: 100%;
 }
 
 header {
-	background-image: url("https://www.popsci.com/app/uploads/2019/09/10/PJIC4GUKOWYLWRBV7TYIXC2R7Q.jpg");
+	position: relative;
+	text-align: center;
 	width: 100%;
-	height: auto;
-	opacity: 50%;
+	height: 100%;
 }
 
 h1 {
-	text-align: center;
+	position: absolute;
 	font-family: Antonio;
 	font-size: 40px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 body {
@@ -29,6 +35,7 @@ body {
 nav {
 	background-color: #9CFFFF;
 	display: grid;
+	
 }
 
 .introduction {
@@ -39,6 +46,7 @@ nav {
 	background-color: #3EFFAA;
 	display: grid;
 	grid-template-columns: 50% 50%;
+	height: 100%;
 }
 
 Page {
