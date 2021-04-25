@@ -1,0 +1,96 @@
+main {
+	background-color: white;
+	width: 60%;
+	height: 1500px;
+	margin: auto;
+	border-width: 1px;
+	border-color: grey;
+	border-style: solid;
+	border-radius: 2px;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	position: relative;
+	background-color: #CBF2FF;
+	padding-top: auto;
+	padding-bottom: auto;
+	height: 120px;
+}
+
+h1 {
+	font-family: Antonio;
+	font-size: 50px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+body {
+	background-color: #EEEEEE;
+}
+
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+/*
+li {
+	float: left;
+}
+*/
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: Verdana;
+	float: left;
+}
+
+li a:hover:not(.active) {
+  background-color: #595959;
+}
+
+.active {
+	background-color: #0083d4;
+}
+
+article {
+	font-family: Verdana;
+	
+}
+
+.introduction {
+	background-color: #;
+	margin-top: 50px;
+	line-height: 1.5;
+	margin: 50px 0px;
+	padding: 0px 50px;
+}
+
+.articles {
+	background-color: ;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	height: 100%;
+	grid-gap: 20px;
+	padding: 20px;
+}
+
+Page {
+	background-color: red;
+}
+
+footer {
+	background-color: #FFA5DC;
+}
+
