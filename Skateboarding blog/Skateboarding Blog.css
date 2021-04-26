@@ -3,6 +3,7 @@ main {
 	width: 60%;
 	height: 1500px;
 	margin: auto;
+	padding: 0;
 	border-width: 1px;
 	border-color: grey;
 	border-style: solid;
@@ -14,8 +15,7 @@ main {
 header {
 	position: relative;
 	background-color: #CBF2FF;
-	padding-top: auto;
-	padding-bottom: auto;
+	padding: auto;
 	height: 120px;
 }
 
@@ -66,28 +66,59 @@ li a:hover:not(.active) {
 
 article {
 	font-family: Verdana;
-	
 }
 
 .introduction {
 	background-color: #;
-	margin-top: 50px;
 	line-height: 1.5;
-	margin: 50px 0px;
-	padding: 0px 50px;
+	margin: 50px 50px;
 }
 
 .articles {
-	background-color: ;
+	background-color: #8c8c8c;
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 1fr 1fr;
 	height: 100%;
 	grid-gap: 20px;
 	padding: 20px;
 }
 
-Page {
-	background-color: red;
+.page {
+	position: relative;
+	background-color: white;
+	width: 100%;
+	box-shadow: -8px 8px lightgrey;
+	transition: box-shadow 1s;
+}
+
+.page:hover {
+	box-shadow: -5px 5px #039eff;
+}
+
+
+img {
+	width: 100%;
+	height: auto;
+	opacity: 50%;
+}
+
+
+.text-block {
+	position: absolute;
+	bottom: 0;
+	background-color: white;
+	width: 100%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+h2 {
+	color: black;
+	font-family: Helvetica;
+	font-size: 30px;
 }
 
 footer {
