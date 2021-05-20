@@ -45,6 +45,9 @@ h1 {
 	transform: translate(-50%, -50%);
 }
 
+nav {
+	height: 50px;
+}
 
 .nav {
 	list-style-type: none;
@@ -53,18 +56,17 @@ h1 {
 	overflow: hidden;
 	background-color: #333;
 }
-/*
+
 li {
 	float: left;
 }
-*/
+
 li a {
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	float: left;
 }
 
 li a:hover:not(.active) {
@@ -73,6 +75,11 @@ li a:hover:not(.active) {
 
 .active {
 	background-color: #0083d4;
+}
+
+#helmet {
+	height: 16px;
+	width: auto;
 }
 
 .introduction {
@@ -92,21 +99,21 @@ li a:hover:not(.active) {
 	align-items: flex-start;
 }
 
-.link {
+.box {
 	position: relative; 
 	background-color: white;
 	box-shadow: -8px 8px black;
 	transition: box-shadow 0.5s;
 	width: 400px; 
 	height: 370px;
-	margin: 20px 25px;
+	margin: 30px auto;
 	border-width: 2px;
 	border-color: black;
 	border-style: solid;
 	border-radius: 0px;
 }
 
-.link:hover {
+.box:hover {
 	box-shadow: -5px 5px black;
 }
 
@@ -139,5 +146,15 @@ h2 {
 footer {
 	background-color: #4d4d4d;
     color: white;
+	padding: 5px 10%;
+	font-size: 12px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
 }
 
