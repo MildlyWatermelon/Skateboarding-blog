@@ -1,36 +1,42 @@
 html {
-	background-image: url(Dots4.jpg);
+	background-image: url(Blue.gif);
+    background-color: lightgrey;
 }
 
 body {
-	;
+	background-color: white;
+	width: 70%;
+	height: auto;
+	margin: 5px auto;
+	padding: 0;
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 3px;
+	display: flex;
+	flex-direction: column;
+    font-family: Verdana, Monospace, sans-serif;
 }
 
 main {
-    background-color: white;
-	width: 70%;
-	height: auto;
-	margin: auto;
-	padding: 0;
-	border-width: 2px;
-	border-color: black;
-	border-style: solid;
-	border-radius: 2px;
-	display: flex;
-	flex-direction: column;
+    
 }
 
 header {
 	position: relative;
-	background-color: #CBF2FF;
 	padding: auto;
 	height: 200px;
     background-image: url(Red.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 h1 {
-	font-family: Antonio;
-	font-size: 50px;
+	font-family: Bangers, Arial, sans-serif;
+    color: white;
+	font-size: 70px;
+    letter-spacing: 5px;
 	margin: 0;
 	position: absolute;
 	top: 50%;
@@ -58,7 +64,6 @@ li a {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-family: Verdana;
 	float: left;
 }
 
@@ -70,10 +75,6 @@ li a:hover:not(.active) {
 	background-color: #0083d4;
 }
 
-article {
-	font-family: Verdana;
-}
-
 .introduction {
 	background-color: #;
 	line-height: 1.5;
@@ -81,7 +82,7 @@ article {
 	font-size: 120%;
 }
 
-.articles {
+.directory {
 	position: relative;
 	/*background-color: #8c8c8c;*/
 	display: flex;
@@ -91,13 +92,13 @@ article {
 	align-items: flex-start;
 }
 
-.page {
+.link {
 	position: relative; 
 	background-color: white;
 	box-shadow: -8px 8px black;
 	transition: box-shadow 0.5s;
 	width: 400px; 
-	height: 400px;
+	height: 370px;
 	margin: 20px 25px;
 	border-width: 2px;
 	border-color: black;
@@ -105,7 +106,7 @@ article {
 	border-radius: 0px;
 }
 
-.page:hover {
+.link:hover {
 	box-shadow: -5px 5px black;
 }
 
@@ -116,7 +117,7 @@ img {
 	opacity: 100%;
 }
 
-.text-block {
+.text-overlay {
 	position: absolute;
 	bottom: 0;
 	background-color: white;
@@ -131,11 +132,12 @@ img {
 
 h2 {
 	color: black;
-	font-family: Helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 200%;
 }
 
 footer {
-	background-color: #FFA5DC;
+	background-color: #4d4d4d;
+    color: white;
 }
 
