@@ -1,0 +1,160 @@
+html {
+	background-image: url(Blue.gif);
+    background-color: lightgrey;
+}
+
+body {
+	background-color: white;
+	width: 70%;
+	height: auto;
+	margin: 5px auto;
+	padding: 0;
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 3px;
+	display: flex;
+	flex-direction: column;
+    font-family: Verdana, Monospace, sans-serif;
+}
+
+main {
+    
+}
+
+header {
+	position: relative;
+	padding: auto;
+	height: 200px;
+    background-image: url(Red.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+	font-family: Bangers, Arial, sans-serif;
+    color: white;
+	font-size: 70px;
+    letter-spacing: 5px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+nav {
+	height: 50px;
+}
+
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #595959;
+}
+
+.active {
+	background-color: #0083d4;
+}
+
+#helmet {
+	height: 16px;
+	width: auto;
+}
+
+.introduction {
+	background-color: #;
+	line-height: 1.5;
+	margin: 100px 50px;
+	font-size: 120%;
+}
+
+.directory {
+	position: relative;
+	/*background-color: #8c8c8c;*/
+	display: flex;
+	height: auto;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.box {
+	position: relative; 
+	background-color: white;
+	box-shadow: -8px 8px black;
+	transition: box-shadow 0.5s;
+	width: 400px; 
+	height: 370px;
+	margin: 30px auto;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 0px;
+}
+
+.box:hover {
+	box-shadow: -5px 5px black;
+}
+
+
+img {
+	width: 100%;
+	height: 100%;
+	opacity: 100%;
+}
+
+.text-overlay {
+	position: absolute;
+	bottom: 0;
+	background-color: white;
+	width: 100%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	opacity: 80%;
+}
+
+h2 {
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 200%;
+}
+
+footer {
+	background-color: #4d4d4d;
+    color: white;
+	padding: 5px 10%;
+	font-size: 12px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
