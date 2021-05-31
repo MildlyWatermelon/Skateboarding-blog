@@ -94,7 +94,11 @@ li.dropdown {
 	text-align: left;
 }
 
-.dropdown-content a:hover {background-color: white;}
+.dropdown-content a:hover {
+	background-color: red;
+	color: white;
+	
+}
 
 .dropdown:hover .dropdown-content {
 	display: block;
@@ -110,7 +114,6 @@ li.dropdown {
 }
 
 .introduction {
-	background-color: #;
 	line-height: 1.5;
 	margin: 100px 50px;
 	font-size: 120%;
