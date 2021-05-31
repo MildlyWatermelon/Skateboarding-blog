@@ -96,7 +96,7 @@ li.dropdown {
 
 .dropdown-content a:hover {
 	color: white;
-	}
+}
 
 .dropdown:hover .dropdown-content {
 	display: block;

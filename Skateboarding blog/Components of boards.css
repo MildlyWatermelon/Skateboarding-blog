@@ -19,7 +19,7 @@ body {
 }
 
 main {
-	padding: 50px 70px;
+    padding: 50px 70px;
 }
 
 header {
@@ -119,6 +119,37 @@ h2 {
 p {
 	line-height: 1.5;
 	font-size: 17px;
+}
+
+hr {
+	margin: 50px 0px;
+}
+
+.diagram {
+	display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+.diagram img {
+	width: 70%;
+	height: auto;
+}
+
+h3 {
+	font-family: Bangers, Arial, sans-serif;
+	font-size: 40px;
+}
+
+.parts {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.parts div {
+	width: 45%;
+	margin: 1% 2.5%;
 }
 
 footer {
