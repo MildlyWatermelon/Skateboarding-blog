@@ -1,0 +1,43 @@
+html {
+	display: flex;
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	background: repeating-linear-gradient(
+      -45deg,
+      yellow 0px,
+      yellow 80px,
+      black 0px,
+      black 160px
+    );
+}
+
+body {
+	height: 800px;
+	width: 70%;
+	margin: auto auto;
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 3px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	font-size: 100px;
+	font-family: Arial;
+	position: relative;
+	animation-name: Helmet;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes Helmet {
+	50% {font-size: 120px;}
+}
+

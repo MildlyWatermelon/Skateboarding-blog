@@ -125,17 +125,46 @@ hr {
 	margin: 50px 0px;
 }
 
-.sections {
+.records p {
+	width: 440px;
+}
+
+.large {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 
+iframe {
+	margin-right: 50px;
+}
 
 h3 {
 	font-family: Bangers, Arial, sans-serif;
 	font-size: 40px;
+	width: 100%;
+	margin-top: 0px;
+}
+
+.speed {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.ollie {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+img {
+	height: auto;
+	width: 700px;
+	margin-right: 50px;
 }
 
 footer {
