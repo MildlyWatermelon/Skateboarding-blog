@@ -61,19 +61,19 @@ nav {
 	float: left;
 }
 
-li a, .droptbtn {
-	display: inline-block;
+nav li a, .droptbtn {
+	display: inline-block;	
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
-li a:hover:not(.active), .dropdown:hover .dropbtn {
+nav li a:hover:not(.active), .dropdown:hover .dropbtn {
 	background-image: linear-gradient(#212121, black); 
 }
 
-li.dropdown {
+nav li .dropdown {
 	display: inline-block;
 }
 
@@ -125,17 +125,78 @@ hr {
 	margin: 50px 0px;
 }
 
-.sections {
+
+h3 {
+	font-family: Bangers, Arial, sans-serif;
+	font-size: 40px;
+	width: 100%;
+}
+
+.comfortable {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
+
+.comfortable img {
+	width: 500px;
+	height: auto;
+	margin-right: 50px;
 }
 
-h3 {
+.comfortable p {
+	width: 640px;
+}
+
+iframe {
+	margin: 50px 50px 50px 0px;
+}
+
+.tricks {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.youtubers {
+	width: 640px;
+	padding: 50px 0px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+.youtubers li {
+	font-size: 25px;
+	line-height: 2;
 	font-family: Bangers, Arial, sans-serif;
-	font-size: 40px;
+}
+
+.youtubers a:link {
+  color: #0abf49;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.youtubers a:visited {
+  color: #0abf49;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.youtubers a:hover {
+  color: #075723;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.youtubers a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 footer {
